@@ -56,15 +56,47 @@
 		DC17035E2874A23E0031CFC0 /* InstagridProjet4Mikungu */ = {
 			isa = PBXGroup;
 			children = (
+				DC1703732874A33A0031CFC0 /* Model */,
+				DC1703752874A35D0031CFC0 /* Controller */,
+				DC1703742874A3450031CFC0 /* View */,
+				DC1703762874A3B60031CFC0 /* Supporting Files */,
+			);
+			path = InstagridProjet4Mikungu;
+			sourceTree = "<group>";
+		};
+		DC1703732874A33A0031CFC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1703742874A3450031CFC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC1703652874A23E0031CFC0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC1703752874A35D0031CFC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC1703632874A23E0031CFC0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC1703762874A3B60031CFC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				DC17035F2874A23E0031CFC0 /* AppDelegate.swift */,
 				DC1703612874A23E0031CFC0 /* SceneDelegate.swift */,
-				DC1703632874A23E0031CFC0 /* ViewController.swift */,
-				DC1703652874A23E0031CFC0 /* Main.storyboard */,
 				DC1703682874A2400031CFC0 /* Assets.xcassets */,
 				DC17036A2874A2400031CFC0 /* LaunchScreen.storyboard */,
 				DC17036D2874A2400031CFC0 /* Info.plist */,
 			);
-			path = InstagridProjet4Mikungu;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
