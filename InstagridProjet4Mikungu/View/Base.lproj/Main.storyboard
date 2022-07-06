@@ -15,16 +15,129 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="zTf-DY-hmb" customClass="SelectorLayout" customModule="InstagridProjet4Mikungu" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 1" translatesAutoresizingMaskIntoConstraints="NO" id="sj5-Cu-FAV">
+                                        <rect key="frame" x="37" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 2" translatesAutoresizingMaskIntoConstraints="NO" id="heK-ab-gq7" userLabel="Layout2">
+                                        <rect key="frame" x="163" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 3" translatesAutoresizingMaskIntoConstraints="NO" id="Kh5-xP-bE4">
+                                        <rect key="frame" x="313" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="hhC-qm-cHF" userLabel="Selected1">
+                                        <rect key="frame" x="37" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="N52-aX-K9x" userLabel="Selected2">
+                                        <rect key="frame" x="163" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 1" translatesAutoresizingMaskIntoConstraints="NO" id="ncy-bh-JOv">
+                                        <rect key="frame" x="102" y="276" width="210" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="2RU-25-qCo">
+                                        <rect key="frame" x="191" y="319" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="9Ck-Ft-7AQ">
+                                        <rect key="frame" x="145" y="420" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="UVc-Ql-a10">
+                                        <rect key="frame" x="247" y="420" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 2" translatesAutoresizingMaskIntoConstraints="NO" id="4kS-co-wMv">
+                                        <rect key="frame" x="102" y="276" width="210" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="Wjl-en-EuP">
+                                        <rect key="frame" x="145" y="324" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="uVE-5J-sBN">
+                                        <rect key="frame" x="247" y="324" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="qDY-k3-kBI">
+                                        <rect key="frame" x="195" y="420" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Layout 3" translatesAutoresizingMaskIntoConstraints="NO" id="c1y-Gv-lJf">
+                                        <rect key="frame" x="102" y="276" width="210" height="210"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="rtF-5Q-poE">
+                                        <rect key="frame" x="144" y="330" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="Tlu-kW-kqI">
+                                        <rect key="frame" x="242" y="330" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="QKc-Vp-rTG">
+                                        <rect key="frame" x="144" y="420" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Plus" translatesAutoresizingMaskIntoConstraints="NO" id="s5r-cx-3jq">
+                                        <rect key="frame" x="247" y="420" width="25" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="7zo-VE-gJN" userLabel="Selected3">
+                                        <rect key="frame" x="313" y="752" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="1bN-1k-u5c"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                                <connections>
+                                    <outlet property="layout1" destination="sj5-Cu-FAV" id="Sb0-hb-oiX"/>
+                                    <outlet property="layout2" destination="heK-ab-gq7" id="SYM-l0-un0"/>
+                                    <outlet property="layout3" destination="Kh5-xP-bE4" id="iGe-2i-yxe"/>
+                                    <outlet property="selected1" destination="hhC-qm-cHF" id="XSC-Lf-8zE"/>
+                                    <outlet property="selected2" destination="N52-aX-K9x" id="vKU-mU-I3x"/>
+                                    <outlet property="selected3" destination="7zo-VE-gJN" id="1KO-FE-HdD"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                     </view>
+                    <connections>
+                        <outlet property="layout" destination="heK-ab-gq7" id="TCM-hA-p6V"/>
+                        <outlet property="layout1" destination="sj5-Cu-FAV" id="exr-cV-ev4"/>
+                        <outlet property="layout2" destination="heK-ab-gq7" id="Qdl-bG-UfK"/>
+                        <outlet property="layout3" destination="Kh5-xP-bE4" id="XLd-0j-kVC"/>
+                        <outlet property="selected1" destination="hhC-qm-cHF" id="wdo-kB-750"/>
+                        <outlet property="selected2" destination="N52-aX-K9x" id="Ytw-dC-jsY"/>
+                        <outlet property="selected3" destination="7zo-VE-gJN" id="KTM-8L-DU7"/>
+                        <outletCollection property="layout" destination="sj5-Cu-FAV" collectionClass="NSMutableArray" id="Q7a-de-qgZ"/>
+                        <outletCollection property="layout" destination="heK-ab-gq7" collectionClass="NSMutableArray" id="YBH-vG-ser"/>
+                        <outletCollection property="LayoutColl" destination="sj5-Cu-FAV" collectionClass="NSMutableArray" id="uJh-bD-ue3"/>
+                        <outletCollection property="LayoutColl" destination="sj5-Cu-FAV" collectionClass="NSMutableArray" id="4aw-Om-ygW"/>
+                        <outletCollection property="selectedColl" destination="hhC-qm-cHF" collectionClass="NSMutableArray" id="dh3-d8-MiC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="51"/>
+            <point key="canvasLocation" x="18.840579710144929" y="50.892857142857139"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Layout 1" width="27" height="27"/>
+        <image name="Layout 2" width="27" height="27"/>
+        <image name="Layout 3" width="27" height="27"/>
+        <image name="Plus" width="13.5" height="13.5"/>
+        <image name="Selected" width="27" height="27"/>
         <systemColor name="systemCyanColor">
             <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
